@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-09-12T11:17:44.275612",
+  "file": "samples/laptop.pdf",
+  "task": "warranty_extraction",
+  "tokens": {
+    "prompt": 470,
+    "completion": 171,
+    "total": 641
+  },
+  "duration_sec": 134.09,
+  "output_summary": {
+    "title": "Laptop Warranty Certificate",
+    "expiry_date": "2027-07-15",
+    "attachments": [
+      "None in the given text."
+    ],
+    "claimable_items": [
+      "Motherboard, RAM Modules, CPU (Processor), Solid-State Drives (SSDs) / Hard Drives (HDDs), Internal Cooling Fans, Display Panel (non-accidental damage), Keyboard and Trackpad, Wireless Network Card"
+    ],
+    "non_claimable_items": [
+      "Battery (limited warranty to 12 months from purchase date), External Adapters and Charging Cables, Cosmetic Damage (scratches, dents, paint wear), Accidental Damage (liquid spills, drops, burns), Unauthorized Hardware Upgrades or Modifications, Pre-installed or Third-Party Software Issues"
+    ]
+  }
+}

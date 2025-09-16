@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-09-10T14:43:51.944782",
+  "file": "samples/homedevice.pdf",
+  "task": "warranty_extraction",
+  "tokens": {
+    "prompt": 656,
+    "completion": 294,
+    "total": 950
+  },
+  "duration_sec": 202.42,
+  "output_summary": {
+    "title": "SMART HOME DEVICE WARRANTY CERTIFICATE",
+    "expiry_date": "2026-08-22",
+    "attachments": [],
+    "claimable_items": [
+      "The following components and functions are covered under normal residential use as per the warranty: Main Logic Board (Motherboard), LED/LCD Panel (manufacturing defects; no impact/pressure damage), T-Con Board and Backlight System, Power Supply Unit, Wi-Fi/Bluetooth Modules and Ethernet Port, IR Receiver and Control Buttons, Built-in Speakers and Audio Amplifier, Remote Control (functional defects only; excludes physical damage)."
+    ],
+    "non_claimable_items": [
+      "The warranty does not apply to Wall Mounts, Table Stands, Cables, and Accessories, Cosmetic Damage (scratches, dents, bezel cracks), Dead Pixels within acceptable industry tolerance (3 sub-pixels), Damage from Liquid Exposure, Impact, or Pressure on Screen, Burn-in or Image Retention due to static content, Software modified by third parties, unofficial firmware, or rooting, Batteries in Remote Control (consumables). Additional non-claimable items include damage caused by power surges, lightning, fire, or other acts of nature and improper installation that does not follow the user manual. On-site service availability varies by region; otherwise, carry-in service applies."
+    ]
+  }
+}

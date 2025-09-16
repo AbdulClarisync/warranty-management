@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-08-29T16:02:40.842627",
+  "file": "samples/appliances.pdf",
+  "task": "warranty_extraction",
+  "tokens": {
+    "prompt": 538,
+    "completion": 259,
+    "total": 797
+  },
+  "duration_sec": 187.72,
+  "output_summary": {
+    "title": "HOME APPLIANCE WARRANTY CERTIFICATE",
+    "expiry_date": "2029-06-20",
+    "attachments": [],
+    "claimable_items": [
+      "The CoolBreeze 500L Refrigerator is covered for warranty claims under normal household usage for the following components:",
+      "Compressor Unit",
+      "Evaporator and Condenser Coils",
+      "Cooling Fans and Motors",
+      "Thermostat and Temperature Sensors",
+      "Internal Electrical Circuitry and Control Boards",
+      "Door Gaskets and Seals (manufacturing defects only)"
+    ],
+    "non_claimable_items": [
+      "The warranty does not apply to the following:",
+      "Refrigerator Shelves, Drawers, and Plastic Compartments",
+      "Light Bulbs and LED Indicators",
+      "Water Filters (if applicable)",
+      "External Cables, Plugs, or Power Adapters",
+      "Cosmetic Damage (scratches, dents, paint wear)",
+      "Damage due to Overloading, Improper Installation, or Mishandling",
+      "User-Induced Damage (spills, burns, unauthorized modifications)"
+    ]
+  }
+}

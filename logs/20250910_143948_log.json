@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-09-10T14:39:48.270682",
+  "file": "samples/automobile.pdf",
+  "task": "warranty_extraction",
+  "tokens": {
+    "prompt": 598,
+    "completion": 295,
+    "total": 893
+  },
+  "duration_sec": 239.55,
+  "output_summary": {
+    "title": "AUTOMOBILE WARRANTY CERTIFICATE",
+    "expiry_date": "2027-05-12 (3 Years / 60,000 km \u2013 whichever comes first)",
+    "attachments": [],
+    "claimable_items": [
+      "The following parts and systems are covered under the warranty:",
+      "Engine Assembly (cylinder block, pistons, crankshaft, camshaft)",
+      "Transmission System (automatic/manual gearbox, torque converter)",
+      "Cooling System (radiator , water pump, thermostat)",
+      "Fuel Injection System",
+      "Electrical System (ECU, alternator , starter motor)",
+      "Air Conditioning & Heating Unit",
+      "Suspension Components (shocks, struts, control arms)",
+      "Steering System (power steering pump, rack & pinion)",
+      "Brake System (master cylinder , ABS module)"
+    ],
+    "non_claimable_items": [
+      "Tires, Brake Pads, Clutch Plates (considered wear & tear items)",
+      "Battery (covered only for 12 months from purchase)",
+      "Headlights, Bulbs, and Fuses",
+      "Upholstery, Carpets, and Interior Trims",
+      "Paint Damage, Scratches, and Rust caused by external factors",
+      "Accidental Damage, Fire, Flood, or Theft",
+      "Damage caused by Unauthorized Modifications or Racing Activities"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+Project: AI-Powered Warranty Claim Assistant (with Mistral 7B + Qdrant)
+🔧 Tools & Stack
+Component	Tool / Technology
+LLM	Mistral 7B (via Ollama)
+Embeddings	nomic-embed-text / all-MiniLM-L6-v2
+Vector DB	Qdrant (hosted on Qdrant Cloud)
+Backend API	Python (FastAPI preferred) or Laravel (if sticking with PHP)
+Document Parsing	PDF Extractor (Python pdfplumber or Laravel smalot/pdfparser)
+Document Upload	Web UI or API
+Text Preprocessing	Sentence splitting, cleaning
+Language	Urdu / Hindi + English mix
+
+📄 Step-by-Step Workflow Document
+Step 1: Document Upload & Processing
+User uploads warranty PDF (via UI or API)
+
+Extract structured content from the PDF using a parser
+
+Chunk text into logical units (paragraphs, sections)
+
+Generate embeddings for each chunk using nomic-embed-text (Python)
+
+➡️ Store in Qdrant with:
+
+json
+Copy
+Edit
+{
+  "id": "<uuid>",
+  "vector": [...],
+  "metadata": {
+    "product": "fridge",
+    "section": "warranty",
+    "source": "warranty_fridge.pdf"
+  }
+}
+Step 2: Asking Question (Natural Language)
+Examples:
+
+"Mera fridge ka warranty kab khatam ho raha hai?"
+
+"TV ka screen damage claimable hai ya nahi?"
+
+➡️ Steps:
+
+User sends a query (can be in Urdu/Hindi)
+
+Use same embedding model to convert this question into a vector
+
+Run a similarity search in Qdrant
+
+Get the top-k relevant chunks (e.g., top 3 matches)
+
+Step 3: Response Generation (LLM)
+Prompt Mistral like:
+
+php-template
+Copy
+Edit
+Context:
+<chunk 1>
+<chunk 2>
+<chunk 3>
+
+User question:
+"Mera fridge ka warranty kab khatam ho raha hai?"
+
+Answer in simple Urdu:
+➡️ Mistral will generate a localized, user-friendly answer like:
+
+"Aapke fridge ki warranty 5 saal tak valid hai, jo ke 12 August 2027 ko khatam ho rahi hai."
+
+Step 4: Result Display / API Response
+Return back:
+
+json
+Copy
+Edit
+{
+  "answer": "Aapke fridge ki warranty 12 August 2027 ko khatam ho rahi hai.",
+  "source_doc": "fridge_warranty.pdf",
+  "confidence": 0.89
+}
+✅ Verification & Testing Strategy
+Phase	What to Verify
+Vector Matching	Questions should fetch correct chunks
+LLM Quality	Mistral should answer accurately
+Urdu Query Handling	Hinglish + Urdu queries must work
+Multiple Devices	Mobile/desktop support
+
+📦 Free Hosting Plan
+Component	Hosting Option	Notes
+Qdrant	Qdrant Cloud Free Tier	1 collection, 10k vectors
+Ollama	Local deployment (your machine / cloud VM)	LLM runs offline, no cost
+Backend	Render / Railway / Fly.io (free tier)	Host API here

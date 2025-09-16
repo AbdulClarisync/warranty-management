@@ -1,0 +1,33 @@
+step 1 
+ollama run mistral
+step 2
+https://cloud.qdrant.io/accounts/a897ab11-9f33-4793-b34c-c5b3c46df209/clusters/0f829c53-bf38-4dd1-95a9-a890d366d0bb/overview?createApiKey=true
+create a instant with name (Warranty-management)
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.g11ODLoj1MxC1HGNCaye5A9oFgx6u3E4EAwdeXcX2fk
+
+from qdrant_client import QdrantClient
+
+qdrant_client = QdrantClient(
+    url="https://0f829c53-bf38-4dd1-95a9-a890d366d0bb.us-west-2-0.aws.cloud.qdrant.io:6333", 
+    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.g11ODLoj1MxC1HGNCaye5A9oFgx6u3E4EAwdeXcX2fk",
+)
+
+print(qdrant_client.get_collections())
+ step 3 
+i did code
+step 4
+install pip install tiktoken
+
+step 5
+logs file bana li
+
+step 6
+db k liye or chunks k liye
+pip install qdrant-client sentence-transformers
+
+step 7 db me data store krwaliya
+
+step 8 i changed emdding  model
+
+step 9 i change spliting method 
+by installing pip install langchain-text-splitters to this from langchain_text_splitters import RecursiveCharacterTextSplitter

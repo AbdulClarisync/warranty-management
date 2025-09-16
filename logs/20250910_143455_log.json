@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-09-10T14:34:55.294747",
+  "file": "samples/appliances.pdf",
+  "task": "warranty_extraction",
+  "tokens": {
+    "prompt": 538,
+    "completion": 343,
+    "total": 881
+  },
+  "duration_sec": 116.97,
+  "output_summary": {
+    "title": "HOME APPLIANCE WARRANTY CERTIFICATE",
+    "expiry_date": "2029-06-20",
+    "attachments": [
+      "None, but it mentions that claims must be submitted with proof of purchase and product serial number"
+    ],
+    "claimable_items": [
+      "The CoolBreeze 500L Refrigerator's Compressor Unit, Evaporator and Condenser Coils, Cooling Fans and Motors, Thermostat and Temperature Sensors, Internal Electrical Circuitry and Control Boards, Door Gaskets and Seals (manufacturing defects only)"
+    ],
+    "non_claimable_items": [
+      "Refrigerator Shelves, Drawers, and Plastic Compartments, Light Bulbs and LED Indicators, Water Filters (if applicable), External Cables, Plugs, or Power Adapters, Cosmetic Damage (scratches, dents, paint wear), Damage due to Overloading, Improper Installation, or Mishandling, User-Induced Damage (spills, burns, unauthorized modifications) Additionally, the warranty does not cover damage caused by voltage fluctuations, fire, flood, or natural disasters. Regular maintenance is the customer's responsibility. The warranty is void if the refrigerator is serviced by unauthorized personnel or installed incorrectly. Claims must be submitted with proof of purchase and product serial number. Replacement or repair will be done with equivalent parts or refurbished components. 6. Service Contact: HomeAppliance Customer Care, support@homeappliancecorp.com, +1 877-567-1122 7. Certified by: HomeAppliance Corp. \u2013 Warranty Services Department"
+    ]
+  }
+}
