@@ -1,7 +1,7 @@
 import os
 import json
 from datetime import datetime
-
+import time
 from utils.embedder import Embedder
 from vector_db.qdrant_manager import QdrantManager
 from llm.mistral_client import ask_mistral
@@ -42,6 +42,7 @@ def save_log_file(log_data, prefix="warranty_query"):
 
 
 def answer_query(user_question, warranty_id=None, top_k=10):
+    start_time = time.time()
     log = {
         "user_question": user_question,
         "expanded_query": None,
@@ -50,7 +51,8 @@ def answer_query(user_question, warranty_id=None, top_k=10):
         "context_used": None,
         "final_answer": None,
         "confidence": None,
-        "sources": []
+        "sources": [],
+        "process_time_seconds": None  
     }
 
     print(f"[DEBUG] Original User Query: '{user_question}'")
@@ -179,7 +181,9 @@ def answer_query(user_question, warranty_id=None, top_k=10):
     log["final_answer"] = response["response"]
     log["confidence"] = final_confidence
     log["sources"] = list({r["metadata"]["source"] for r in results})
-
+    end_time = time.time()
+    process_time = round(end_time - start_time, 2)
+    log["process_time_seconds"] = process_time
     save_log_file(log)
     return log
     

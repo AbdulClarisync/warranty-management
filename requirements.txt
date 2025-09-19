@@ -3,3 +3,5 @@ python-docx
 requests
 qdrant-client
 sentence-transformers
+tiktoken
+langchain-text-splitters
