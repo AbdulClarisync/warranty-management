@@ -1,0 +1,135 @@
+{
+  "user_question": "My Car windows are broken can i clame",
+  "expanded_query": "A comprehensive search for a warranty document should focus on passages that indicate whether the damage to the vehicle's windows, including terms such as \"breakage,\" \"cracks,\" or \"shattering,\" is covered under the car's warranty. Relevant sections may specify if this type of incident falls under \"defects,\" \"malfunctions,\" or \"manufacturer's responsibility.\" The search should also consider passages where replacement or repair of broken windows, under the circumstances provided by the user, is deemed \"coverable\" or \"claimable\" under the terms and conditions of the warranty.",
+  "retrieved_chunks": [
+    {
+      "text": "Headlights, Bulbs, and Fuses\n \n \nUpholstery, Carpets, and Interior Trims\n \n \nPaint Damage, Scratches, and Rust caused by external factors\n \n \nAccidental Damage, Fire, Flood, or Theft\n \n \nDamage caused by Unauthorized Modifications or Racing Activities\n \n \n \nTerms and Conditions:\n \n 1. \nWarranty is void if the car is serviced by non-authorized workshops.\n \n 2. \nWarranty claims require proper service records as per the recommended maintenance \nschedule.\n \n 3.",
+      "metadata": {
+        "text": "Headlights, Bulbs, and Fuses\n \n \nUpholstery, Carpets, and Interior Trims\n \n \nPaint Damage, Scratches, and Rust caused by external factors\n \n \nAccidental Damage, Fire, Flood, or Theft\n \n \nDamage caused by Unauthorized Modifications or Racing Activities\n \n \n \nTerms and Conditions:\n \n 1. \nWarranty is void if the car is serviced by non-authorized workshops.\n \n 2. \nWarranty claims require proper service records as per the recommended maintenance \nschedule.\n \n 3.",
+        "section": "general",
+        "product": "AUTOMOBILE WARRANTY CERTIFICATE",
+        "source": "samples/automobile.pdf",
+        "warranty_id": 2
+      },
+      "score": 0.7083666324615479
+    },
+    {
+      "text": "Warranty Coverage Details:\n \nThe following parts and systems are covered under the warranty:\n \n \nEngine Assembly (cylinder block, pistons, crankshaft, camshaft)\n \n \nTransmission System (automatic/manual gearbox, torque converter)\n \n \nCooling System (radiator , water pump, thermostat)\n \n \nFuel Injection System\n \n \nElectrical System (ECU, alternator , starter motor)\n \n \nAir Conditioning & Heating Unit\n \n \nSuspension Components (shocks, struts, control arms)",
+      "metadata": {
+        "text": "Warranty Coverage Details:\n \nThe following parts and systems are covered under the warranty:\n \n \nEngine Assembly (cylinder block, pistons, crankshaft, camshaft)\n \n \nTransmission System (automatic/manual gearbox, torque converter)\n \n \nCooling System (radiator , water pump, thermostat)\n \n \nFuel Injection System\n \n \nElectrical System (ECU, alternator , starter motor)\n \n \nAir Conditioning & Heating Unit\n \n \nSuspension Components (shocks, struts, control arms)",
+        "section": "general",
+        "product": "AUTOMOBILE WARRANTY CERTIFICATE",
+        "source": "samples/automobile.pdf",
+        "warranty_id": 2
+      },
+      "score": 0.6912202835083008
+    },
+    {
+      "text": "2. \nWarranty claims require proper service records as per the recommended maintenance \nschedule.\n \n 3. \nReplacement will be made using new or refurbished OEM-certified parts.\n \n 4. \nWarranty does not cover damage caused by negligence, misuse, or accidents.\n \n 5. \nExtended warranty options may be purchased separately before the standard warranty \nexpires.\n \n \n \nService Contact:\n \nAutoDrive Motors – Customer Care\n\u0000 service@autodrivemotors.com\n\u0000 +1 866-987-2244\n \n \nCertified by:",
+      "metadata": {
+        "text": "2. \nWarranty claims require proper service records as per the recommended maintenance \nschedule.\n \n 3. \nReplacement will be made using new or refurbished OEM-certified parts.\n \n 4. \nWarranty does not cover damage caused by negligence, misuse, or accidents.\n \n 5. \nExtended warranty options may be purchased separately before the standard warranty \nexpires.\n \n \n \nService Contact:\n \nAutoDrive Motors – Customer Care\n\u0000 service@autodrivemotors.com\n\u0000 +1 866-987-2244\n \n \nCertified by:",
+        "section": "general",
+        "warranty_id": 2,
+        "source": "samples/automobile.pdf",
+        "product": "AUTOMOBILE WARRANTY CERTIFICATE"
+      },
+      "score": 0.6893169283866882
+    },
+    {
+      "text": "1. \nWarranty is void if the refrigerator is serviced by unauthorized personnel or installed \nincorrectly.\n \n 2. \nClaims must be submitted with proof of purchase and product serial number .\n \n 3. \nReplacement or repair will be done with equivalent parts or refurbished components.\n \n 4. \nWarranty does not cover damage caused by voltage fluctuations, fire, flood, or natural \ndisasters.\n \n 5. \nRegular maintenance (cleaning condenser coils, replacing filters) is the customer’s \nresponsibility.",
+      "metadata": {
+        "text": "1. \nWarranty is void if the refrigerator is serviced by unauthorized personnel or installed \nincorrectly.\n \n 2. \nClaims must be submitted with proof of purchase and product serial number .\n \n 3. \nReplacement or repair will be done with equivalent parts or refurbished components.\n \n 4. \nWarranty does not cover damage caused by voltage fluctuations, fire, flood, or natural \ndisasters.\n \n 5. \nRegular maintenance (cleaning condenser coils, replacing filters) is the customer’s \nresponsibility.",
+        "section": "general",
+        "warranty_id": 1,
+        "source": "samples/appliances.pdf",
+        "product": "HOME APPLIANCE WARRANTY CERTIFICATE"
+      },
+      "score": 0.6858526468276978
+    },
+    {
+      "text": "The following components are covered and eligible for warranty claims under normal \nhousehold usage:\n \n \nCompressor Unit\n \n \nEvaporator and Condenser Coils\n \n \nCooling Fans and Motors\n \n \nThermostat and Temperature Sensors\n \n \nInternal Electrical Circuitry and Control Boards\n \n \nDoor Gaskets and Seals (manufacturing defects only)\n \n \n \nNon-Claimable Components:\n \nThe warranty does not apply to the following:\n \n \nRefrigerator Shelves, Drawers, and Plastic Compartments\n \n \nLight Bulbs and LED Indicators",
+      "metadata": {
+        "text": "The following components are covered and eligible for warranty claims under normal \nhousehold usage:\n \n \nCompressor Unit\n \n \nEvaporator and Condenser Coils\n \n \nCooling Fans and Motors\n \n \nThermostat and Temperature Sensors\n \n \nInternal Electrical Circuitry and Control Boards\n \n \nDoor Gaskets and Seals (manufacturing defects only)\n \n \n \nNon-Claimable Components:\n \nThe warranty does not apply to the following:\n \n \nRefrigerator Shelves, Drawers, and Plastic Compartments\n \n \nLight Bulbs and LED Indicators",
+        "section": "general",
+        "product": "HOME APPLIANCE WARRANTY CERTIFICATE",
+        "source": "samples/appliances.pdf",
+        "warranty_id": 1
+      },
+      "score": 0.6831313967704773
+    },
+    {
+      "text": "Network performance depends on user’s internet provider and is not covered under \nwarranty.\n \n \n \nTerms and Conditions:\n \n 1. \nWarranty is void if the device is opened, altered, or repaired by unauthorized service \ncenters.\n \n 2. \nClaims require valid proof of purchase and the product serial number .\n \n 3. \nRepairs/replacements may use new or refurbished parts of equivalent quality.\n \n 4. \nDamage caused by power surges, lightning, fire, or other acts of nature is not covered;",
+      "metadata": {
+        "text": "Network performance depends on user’s internet provider and is not covered under \nwarranty.\n \n \n \nTerms and Conditions:\n \n 1. \nWarranty is void if the device is opened, altered, or repaired by unauthorized service \ncenters.\n \n 2. \nClaims require valid proof of purchase and the product serial number .\n \n 3. \nRepairs/replacements may use new or refurbished parts of equivalent quality.\n \n 4. \nDamage caused by power surges, lightning, fire, or other acts of nature is not covered;",
+        "section": "general",
+        "warranty_id": 3,
+        "source": "samples/homedevice.pdf",
+        "product": "SMART HOME DEVICE WARRANTY CERTIFICATE"
+      },
+      "score": 0.6757229566574097
+    },
+    {
+      "text": "Air Conditioning & Heating Unit\n \n \nSuspension Components (shocks, struts, control arms)\n \n \nSteering System (power steering pump, rack & pinion)\n \n \nBrake System (master cylinder , ABS module)\n \n \n \nNon-Claimable Components:\n \nThe following are not covered under the warranty:\n \n \nTires, Brake Pads, Clutch Plates (considered wear & tear items)\n \n \nBattery (covered only for 12 months from purchase)\n \n \nHeadlights, Bulbs, and Fuses\n \n \nUpholstery, Carpets, and Interior Trims",
+      "metadata": {
+        "text": "Air Conditioning & Heating Unit\n \n \nSuspension Components (shocks, struts, control arms)\n \n \nSteering System (power steering pump, rack & pinion)\n \n \nBrake System (master cylinder , ABS module)\n \n \n \nNon-Claimable Components:\n \nThe following are not covered under the warranty:\n \n \nTires, Brake Pads, Clutch Plates (considered wear & tear items)\n \n \nBattery (covered only for 12 months from purchase)\n \n \nHeadlights, Bulbs, and Fuses\n \n \nUpholstery, Carpets, and Interior Trims",
+        "section": "general",
+        "product": "AUTOMOBILE WARRANTY CERTIFICATE",
+        "source": "samples/automobile.pdf",
+        "warranty_id": 2
+      },
+      "score": 0.6733927130699158
+    },
+    {
+      "text": "Remote Control (functional defects only; excludes physical damage)\n \n \n \nNon-Claimable Components:\n \nThe warranty does not apply to:\n \n \nWall Mounts, Table Stands, Cables, and Accessories\n \n \nCosmetic Damage (scratches, dents, bezel cracks)\n \n \nDead Pixels within acceptable industry tolerance (\u0000 3 sub-pixels)\n \n \nDamage from Liquid Exposure, Impact, or Pressure on Screen\n \n \nBurn-in or Image Retention due to static content\n \n \nSoftware modified by third parties, unofficial firmware, or rooting",
+      "metadata": {
+        "text": "Remote Control (functional defects only; excludes physical damage)\n \n \n \nNon-Claimable Components:\n \nThe warranty does not apply to:\n \n \nWall Mounts, Table Stands, Cables, and Accessories\n \n \nCosmetic Damage (scratches, dents, bezel cracks)\n \n \nDead Pixels within acceptable industry tolerance (\u0000 3 sub-pixels)\n \n \nDamage from Liquid Exposure, Impact, or Pressure on Screen\n \n \nBurn-in or Image Retention due to static content\n \n \nSoftware modified by third parties, unofficial firmware, or rooting",
+        "section": "general",
+        "product": "SMART HOME DEVICE WARRANTY CERTIFICATE",
+        "source": "samples/homedevice.pdf",
+        "warranty_id": 3
+      },
+      "score": 0.6669521331787109
+    },
+    {
+      "text": "Refrigerator Shelves, Drawers, and Plastic Compartments\n \n \nLight Bulbs and LED Indicators\n \n \nWater Filters (if applicable)\n \n \nExternal Cables, Plugs, or Power Adapters\n \n \nCosmetic Damage (scratches, dents, paint wear)\n \n \nDamage due to Overloading, Improper Installation, or Mishandling\n \n \nUser-Induced Damage (spills, burns, unauthorized modifications)\n \n \n \nTerms and Conditions:\n \n 1. \nWarranty is void if the refrigerator is serviced by unauthorized personnel or installed \nincorrectly.\n \n 2.",
+      "metadata": {
+        "text": "Refrigerator Shelves, Drawers, and Plastic Compartments\n \n \nLight Bulbs and LED Indicators\n \n \nWater Filters (if applicable)\n \n \nExternal Cables, Plugs, or Power Adapters\n \n \nCosmetic Damage (scratches, dents, paint wear)\n \n \nDamage due to Overloading, Improper Installation, or Mishandling\n \n \nUser-Induced Damage (spills, burns, unauthorized modifications)\n \n \n \nTerms and Conditions:\n \n 1. \nWarranty is void if the refrigerator is serviced by unauthorized personnel or installed \nincorrectly.\n \n 2.",
+        "section": "general",
+        "warranty_id": 1,
+        "source": "samples/appliances.pdf",
+        "product": "HOME APPLIANCE WARRANTY CERTIFICATE"
+      },
+      "score": 0.6624411344528198
+    },
+    {
+      "text": "Cosmetic Damage (scratches, dents, paint wear)\n\nAccidental Damage (liquid spills, drops, burns)\n\nUnauthorized Hardware Upgrades or Modifications\n\nPre-installed or Third-Party Software Issues\n\nTerms and Conditions:\n\n 1.\nWarranty is void if the laptop has been tampered with, repaired, or opened by\nunauthorized service personnel.\n\n 2.\nClaims must be submitted through the official TechPro Warranty Portal with proof of\npurchase.",
+      "metadata": {
+        "text": "Cosmetic Damage (scratches, dents, paint wear)\n\nAccidental Damage (liquid spills, drops, burns)\n\nUnauthorized Hardware Upgrades or Modifications\n\nPre-installed or Third-Party Software Issues\n\nTerms and Conditions:\n\n 1.\nWarranty is void if the laptop has been tampered with, repaired, or opened by\nunauthorized service personnel.\n\n 2.\nClaims must be submitted through the official TechPro Warranty Portal with proof of\npurchase.",
+        "section": "general",
+        "product": "LAPTOP WARRANTY CERTIFICATE",
+        "source": "samples/laptop.pdf",
+        "warranty_id": 4
+      },
+      "score": 0.6581550240516663
+    }
+  ],
+  "reranked_order": [
+    4,
+    3,
+    9,
+    8,
+    7,
+    6,
+    5,
+    1,
+    2,
+    0
+  ],
+  "context_used": "Document excerpt: The following components are covered and eligible for warranty claims under normal \nhousehold usage:\n \n \nCompressor Unit\n \n \nEvaporator and Condenser Coils\n \n \nCooling Fans and Motors\n \n \nThermostat and Temperature Sensors\n \n \nInternal Electrical Circuitry and Control Boards\n \n \nDoor Gaskets and Seals (manufacturing defects only)\n \n \n \nNon-Claimable Components:\n \nThe warranty does not apply to the following:\n \n \nRefrigerator Shelves, Drawers, and Plastic Compartments\n \n \nLight Bulbs and LED Indicators\n\nDocument excerpt: 1. \nWarranty is void if the refrigerator is serviced by unauthorized personnel or installed \nincorrectly.\n \n 2. \nClaims must be submitted with proof of purchase and product serial number .\n \n 3. \nReplacement or repair will be done with equivalent parts or refurbished components.\n \n 4. \nWarranty does not cover damage caused by voltage fluctuations, fire, flood, or natural \ndisasters.\n \n 5. \nRegular maintenance (cleaning condenser coils, replacing filters) is the customer’s \nresponsibility.\n\nDocument excerpt: Cosmetic Damage (scratches, dents, paint wear)\n\nAccidental Damage (liquid spills, drops, burns)\n\nUnauthorized Hardware Upgrades or Modifications\n\nPre-installed or Third-Party Software Issues\n\nTerms and Conditions:\n\n 1.\nWarranty is void if the laptop has been tampered with, repaired, or opened by\nunauthorized service personnel.\n\n 2.\nClaims must be submitted through the official TechPro Warranty Portal with proof of\npurchase.",
+  "final_answer": " No, you cannot claim under this warranty as the coverage does not extend to car windows (The warranty document does not mention car windows). Confidence: Low",
+  "confidence": 0.53,
+  "sources": [
+    "samples/appliances.pdf",
+    "samples/laptop.pdf"
+  ]
+}
